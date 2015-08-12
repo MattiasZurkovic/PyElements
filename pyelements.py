@@ -48,6 +48,20 @@ def find_by_name(element_name):
         return chlorine_info()
     if element_name == 'Argon':
         return argon_info()
+    # Period 4
+    if element_name == 'Potassium':
+        return potassium_info()
+    if element_name == 'Calcium':
+        return calcium_info()
+    if element_name == 'Scandium':
+        return scandium_info()
+    if element_name == 'Titanium':
+        return titanium_info()
+    if element_name == 'Vanadium':
+        return vanadium_info()
+    if element_name == 'Chromium':
+        return chromium_info()
+
 
 
 # This method had the user type the elements symbol (I.E. He) and then they will retrieve the information about that element
@@ -341,3 +355,6 @@ def yttrium_info():
     metal_nonmetal = 'Metal'
     info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
     return info_list
+
+
+print(find_by_name('Titanium'))
