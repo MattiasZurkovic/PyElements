@@ -273,3 +273,71 @@ def potassium_info():
     metal_nonmetal = 'Metal'
     info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
     return info_list
+
+def calcium_info():
+    name = 'Calcium'
+    symbol = 'Ca'
+    atomic_number = 20
+    atomic_mass = 40.078
+    earth_state = 'Solid'
+    family = 'Alkaline Earth Metals'
+    metal_nonmetal = 'Metal'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
+
+def scandium_info():
+    name = 'Scandium'
+    symbol = 'Sc'
+    atomic_number = 21
+    atomic_mass = 44.955
+    earth_state = 'Solid'
+    metal_nonmetal = 'Metal'
+    family = 'Group 3'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
+
+def titanium_info():
+    name = 'Titanium'
+    symbol = 'Ti'
+    atomic_number = 22
+    atomic_mass = 47.867
+    earth_state = 'Solid'
+    metal_nonmetal = 'Metal'
+    family = 'Group 5'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
+
+def vanadium_info():
+    name = 'Vanadium'
+    symbol = 'V'
+    atomic_number = 23
+    atomic_mass = 50.941
+    earth_state = 'Solid'
+    metal_nonmetal = 'Metal'
+    family = 'Group 5'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
+
+def chromium_info():
+    name = 'Chromium'
+    symbol = 'Cr'
+    atomic_number = 24
+    atomic_mass = 51.9961
+    earth_state = 'Solid'
+    family = 'Group 6'
+    metal_nonmetal = 'Metal'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
+
+
+
+
+def yttrium_info():
+    name = 'Yttrium'
+    symbol = 'Y'
+    atomic_number = 39
+    atomic_mass = 88.905
+    earth_state = 'Solid'
+    metal_nonmetal = 'Metal'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
