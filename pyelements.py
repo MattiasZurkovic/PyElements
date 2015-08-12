@@ -306,7 +306,7 @@ def scandium_info():
     atomic_mass = 44.955
     earth_state = 'Solid'
     metal_nonmetal = 'Metal'
-    family = 'Group 3'
+    family = 'Transitional Metals'
     info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
     return info_list
 
@@ -317,7 +317,7 @@ def titanium_info():
     atomic_mass = 47.867
     earth_state = 'Solid'
     metal_nonmetal = 'Metal'
-    family = 'Group 5'
+    family = 'Transitional Metals'
     info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
     return info_list
 
@@ -328,7 +328,7 @@ def vanadium_info():
     atomic_mass = 50.941
     earth_state = 'Solid'
     metal_nonmetal = 'Metal'
-    family = 'Group 5'
+    family = 'Transitional Metals'
     info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
     return info_list
 
@@ -338,12 +338,43 @@ def chromium_info():
     atomic_number = 24
     atomic_mass = 51.9961
     earth_state = 'Solid'
-    family = 'Group 6'
+    family = 'Transitional Metals'
     metal_nonmetal = 'Metal'
     info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
     return info_list
 
+def manganese_info():
+    name = 'Manganese'
+    symbol = 'Mn'
+    atomic_number = 25
+    atomic_mass = 54.938
+    earth_state = 'Solid'
+    family = 'Transitional Metals'
+    metal_nonmetal = 'Metal'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
 
+def iron_info():
+    name = 'Iron'
+    symbol = 'Fe'
+    atomic_number = 26
+    atomic_mass = 55.845
+    earth_state = 'Solid'
+    family = 'Transitional Metals'
+    metal_nonmetal = 'Metal'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
+
+def cobalt_info():
+    name = 'Cobalt'
+    symbol = 'Co'
+    atomic_number = 27
+    atomic_mass = 58.933
+    earth_state = 'Solid'
+    family = 'Transitional Metals'
+    metal_nonmetal = 'Metal'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
 
 
 def yttrium_info():
