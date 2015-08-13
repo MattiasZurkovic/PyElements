@@ -376,6 +376,52 @@ def cobalt_info():
     info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
     return info_list
 
+def nickle_info():
+    name = 'Nickle'
+    symbol = 'Ni'
+    atomic_number = 28
+    atomic_mass = 58.6944
+    earth_state = 'Solid'
+    family = 'Transitional Metals'
+    metal_nonmetal = 'Metal'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
+
+def copper_info():
+    name = 'Copper'
+    symbol = 'Cu'
+    atomic_number = 29
+    atomic_mass = 63.546
+    earth_state = 'Solid'
+    family = 'Transitional Metals'
+    metal_nonmetal = 'Metal'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
+
+def zinc_info():
+    name = 'Zinc'
+    symbol = 'Zn'
+    atomic_number = 30
+    atomic_mass = 65.38
+    earth_state = 'Solid'
+    family = 'Transitional Metals'
+    metal_nonmetal = 'Metal'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
+
+def gallium_info():
+    name = 'Gallium'
+    symbol = 'Ga'
+    atomic_number = 31
+    atomic_mass = 69.723
+    earth_state = 'Solid'
+    family = 'Post-transition metals'
+    metal_nonmetal = 'Metal'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
+
+
+
 
 def yttrium_info():
     name = 'Yttrium'
