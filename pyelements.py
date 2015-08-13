@@ -420,6 +420,63 @@ def gallium_info():
     info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
     return info_list
 
+def germainium_info():
+    name = 'Germainium'
+    symbol = 'Ge'
+    atomic_number = 32
+    atomic_mass = 76.23
+    earth_state = 'Solid'
+    family = 'Group 14'
+    metal_nonmetal = 'Metalloid'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
+
+def arsenic_info():
+    name = 'Arsenic'
+    symbol ='As'
+    atomic_number = 33
+    atomic_mass = 74.941
+    earth_state = 'Solid'
+    family = 'Group 15'
+    metal_nonmetal = 'Metalloid'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
+
+def selenium_info():
+    name = 'Selenium'
+    symbol = 'Se'
+    atomic_number = 34
+    atomic_mass = 78.971
+    earth_state = 'Solid'
+    family = 'Group 16'
+    metal_nonmetal = 'Non-Metal'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
+
+def bromine_info():
+    name = 'Bromine'
+    symbol = 'Br'
+    atomic_number = 35
+    atomic_mass = 79.904
+    earth_state = 'Liquid'
+    family = 'Halogens'
+    metal_nonmetal = 'Nen-Metal'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
+
+def krypton_info():
+    name = 'Krypton'
+    symbol = 'Kr'
+    atomic_number = 36
+    atomic_mass = 83.798
+    earth_state = 'Gas'
+    family = 'Noble Gases'
+    metal_nonmetal = 'Non-Metal'
+    info_list = [name, symbol, atomic_number, atomic_mass, earth_state, family, metal_nonmetal]
+    return info_list
+
+
+
 
 
 
@@ -434,4 +491,4 @@ def yttrium_info():
     return info_list
 
 
-print(find_by_name('Titanium'))
+print(find_by_name('Oxygen'))
