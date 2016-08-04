@@ -1,5 +1,8 @@
+#!/bin/env python
 import urllib2
 import json
+from texttable import Texttable
+from sys import stdout
 
 element_json = "https://gist.githubusercontent.com/peterellisjones/758549cd18d4665163d8774e6bea6f6b/raw/a3f2b8abb87c8baabd099f658483b5617e9c3f59/Periodic%2520Table%2520Elements%2520JSON%2520Format"
 response = urllib2.urlopen(element_json)
@@ -15,7 +18,12 @@ def format_info(target):
         for i in json_keys:
                 elem_values.append(target_json[i])
 	return elem_values
-	
+
+def table_info(info):
+	print "| Name          | " + element_names[info[0] - 1]
+	print "| Symbol        | " + info[1]
+	print "| Atomic Number | " + str(info[0])
+	print "| Atomic Mass   | " + str(info[-1])	
 
 def get_by_name(elem_name):
 	return format_info(elem_name.upper())
@@ -23,8 +31,10 @@ def get_by_name(elem_name):
 def get_by_atomic_number(atomic_number):
 	element_ans = element_names[atomic_number - 1]
 	return format_info(element_ans.upper()) 
+
+
  
 print get_by_name("Thorium")
-print get_by_atomic_number(4)
+table_info(get_by_atomic_number(4))
 
-print parsed_data['HYDROGEN']['atomic_number']
+
