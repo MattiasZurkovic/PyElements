@@ -1,3 +1,3 @@
-import elements_index
+import pyelements as elements
 
-print elements_index.get_by_name("Hydrogen")
+print elements.get_by_name("Hydrogen")
